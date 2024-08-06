@@ -1,0 +1,62 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the app container */
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-right: 250px; /* Adjust if necessary to match your layout preference */
+}
+
+.input-container label {
+  flex: 3; /* Adjust based on your preference for label width */
+}
+
+.input-container input {
+  flex: 1;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Ensures the button is centered */
+  margin-top: 20px; /* Provides vertical spacing */
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 20px auto; /* Centers the list horizontally and adds vertical margin */
+  width: 100%; /* Ensures the list uses the full width available */
+  text-align: center; /* Centers the text within the list */
+}
+
+li {
+  border-bottom: 1px solid #ccc; /* Adds a subtle line between items */
+  padding: 10px; /* Adds some space around the text */
+  display: flex;
+  justify-content: space-evenly; /* Evenly distributes space between the date range and the button */
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;  /* Centers the text horizontally */
+  margin-top: 20px;    /* Adds some space above the element for visual separation */
+  margin-bottom: 20px; /* Adds some space below the element */
+}
+
+.expiry-track {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
